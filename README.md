@@ -181,8 +181,8 @@ const mouse = {
 ```
 
 - A: `mouse.bird.size` is not valid
-- B: `mouse[bird.size]` is not valid
-- C: `mouse[bird["size"]]` is not valid
+- B: `mouse[bird.size]` is  valid
+- C: `mouse[bird["size"]]` is  valid
 - D: All of them are valid
 
 <details><summary><b>Answer</b></summary>
